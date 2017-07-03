@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Husband_for_wife
 {
-    interface IWife
+    public interface IWife
     {
         //метод приготовления еды купленной в магазине) 
         int GetFood();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Husband_for_wife
 {
-    interface IHusband
+    public interface IHusband
     {
         //метод зарабатывания денег
          int GetMoney();
