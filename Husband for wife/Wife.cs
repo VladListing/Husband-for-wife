@@ -19,7 +19,6 @@ namespace Husband_for_wife
 
         public int GetFood()
         {
-
             return _food + (_husband.GetMoney());
         }
         public int GetSex()
