@@ -12,18 +12,18 @@ namespace Husband_for_wife
         private int _food = 0;
         IHusband _husband;
 
-        protected  Wife( IHusband husband )
+        public  Wife( IHusband husband )
         {
             _husband = husband;
         }
 
         public int GetFood()
         {
-            return _food + (_husband.GetMoney());
+            return _food + ((_husband.GetMoney())/5);
         }
         public int GetSex()
         {
-            return _sex + (_husband.GetMoney());
+            return _sex + ((_husband.GetMoney())/10);
         }
 
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Husband_for_wife
 {
-    class Programmer: IHusband
+    public class Programmer: IHusband
     {
         private int _money = 0;
 
