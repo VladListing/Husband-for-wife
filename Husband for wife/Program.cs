@@ -18,14 +18,14 @@ namespace Husband_for_wife
                 //Wife 
                 Wife wife = new Wife(programmer);
 
-                var _money = programmer.GetMoney();
-                var _food = wife.GetFood();
-                var _sex = wife.GetSex();
+                var money = programmer.GetMoney();
+                var food = wife.GetFood();
+                var sex = wife.GetSex();
 
-                Console.WriteLine($"количество долларов заработанных Мужем: {_money}");
+                Console.WriteLine($"количество долларов заработанных Мужем: {money}");
                 Console.WriteLine("\n\n");
-                Console.WriteLine($"количество раз приготовления Женой еды: {_food}");
-                Console.WriteLine($"количество раз исполнения Женой супр. обязанностей: {_sex}");
+                Console.WriteLine($"количество раз приготовления Женой еды: {food}");
+                Console.WriteLine($"количество раз исполнения Женой супр. обязанностей: {sex}");
             }
             catch (Exception m)
             {
