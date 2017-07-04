@@ -8,11 +8,16 @@ namespace Husband_for_wife
 {
     public class Programmer: IHusband
     {
-        private int _money = 0;
+        private int _money=0;
+
+        public void EarnMoney()
+        {
+            _money += 100;
+        }
 
         public int GetMoney()
         {
-            return _money+100;
+            return _money;
         }
 
     }

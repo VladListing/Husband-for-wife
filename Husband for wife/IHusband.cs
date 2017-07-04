@@ -8,7 +8,10 @@ namespace Husband_for_wife
 {
     public interface IHusband
     {
-        //метод зарабатывания денег
-         int GetMoney();
+        //метод заработать деньги
+        void EarnMoney();
+
+        //метод отдать заработанные деньги
+        int GetMoney();
     }
 }

@@ -19,11 +19,13 @@ namespace Husband_for_wife
 
         public int GetFood()
         {
-            return _food + ((_husband.GetMoney())/5);
+            _husband.EarnMoney();
+            return _food += ((_husband.GetMoney())/5);
         }
         public int GetSex()
         {
-            return _sex + ((_husband.GetMoney())/10);
+            _husband.EarnMoney();
+            return _sex += ((_husband.GetMoney())/10);
         }
 
     }

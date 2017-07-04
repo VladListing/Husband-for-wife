@@ -17,7 +17,7 @@ namespace Husband_for_wife
 
                 //Wife 
                 Wife wife = new Wife(programmer);
-
+                programmer.EarnMoney();
                 var money = programmer.GetMoney();
                 var food = wife.GetFood();
                 var sex = wife.GetSex();
